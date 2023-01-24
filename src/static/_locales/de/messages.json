@@ -24,7 +24,7 @@
     "message": "Close"
   },
   "common_action_next": {
-    "message": "Next Step"
+    "message": "Weiter →"
   },
   "common_action_confirm": {
     "message": "OK"
@@ -358,7 +358,7 @@
     "message": "My Backup Phrase"
   },
   "view_SaveBackupPhrase_explanation": {
-    "message": "Click or hover over each word and write it down. You need to write the words in the correct order from 1 to 12."
+    "message": "Bitte schreiben Sie die 12 Wörter in der richtigen Reihenfolge auf:"
   },
   "view_VerifyBackupPhrase_heading": {
     "message": "Check my Backup Phrase"
