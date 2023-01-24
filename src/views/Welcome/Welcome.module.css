@@ -19,6 +19,7 @@
 .termsLine {
   composes: subline from '../../components/Typography/Typography.module.css';
   margin-top: 1.25rem;
+  display: none;
 }
 
 .agreeLabel {
@@ -38,6 +39,7 @@
 }
 
 .create {
+  margin-top: 1.5rem;
   composes: buttonPrimary from '../../components/Button/Button.module.css';
 }
 
