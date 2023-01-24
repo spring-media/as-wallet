@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: row;
   flex: none;
-  align-items: center;
+  align-items: start;
 }
 
 .menus > img {

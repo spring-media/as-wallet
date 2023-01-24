@@ -24,7 +24,7 @@
   composes: buttonText from '../Typography/Typography.module.css';
   height: 2.25rem;
   border: 0;
-  padding: 0 2rem;
+  padding: 0;
   background: none;
   text-decoration: underline;
   display: inline-flex;
