@@ -343,16 +343,16 @@
     "message": "Attention!"
   },
   "view_Warning_emphasis": {
-    "message": "The next step is very important!"
+    "message": "Achtung der nächste Schritt ist sehr wichtig!"
   },
   "view_Warning_explanation": {
-    "message": "Please write down your wallet’s phrase and keep it in a safe place. We recommend that you write down your backup phrase with pen and paper. The phrase is required to restore your Identity."
+    "message": "Bitte notieren Sie den Satz Ihrer Brieftasche und bewahren Sie ihn an einem sicheren Ort auf. Die Phrase ist erforderlich, um Ihre Identität wiederherzustellen. Außerdem können Sie sie auch herunterladen."
   },
   "view_Warning_emphasis_again": {
     "message": "Keep it safe, so you don’t lose\nyour assets"
   },
   "view_Warning_CTA": {
-    "message": "I understand this – go to the phrase"
+    "message": "Weiter →"
   },
   "view_SaveBackupPhrase_heading": {
     "message": "My Backup Phrase"
