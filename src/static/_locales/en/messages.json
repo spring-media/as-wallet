@@ -1,6 +1,6 @@
 {
   "messages_locale": {
-    "message": "en"
+    "message": "de"
   },
   "manifest_name": {
     "message": "AS Wallet"
@@ -9,19 +9,19 @@
     "message": "AS Wallet"
   },
   "manifest_description": {
-    "message": "AS Wallet. The wallet for your KILTs and credentials."
+    "message": "AS Wallet. Das Wallet für Ihre Zugangsdaten."
   },
   "common_action_back": {
-    "message": "Back"
+    "message": "Zurück"
   },
   "common_action_save": {
-    "message": "Save"
+    "message": "Speichern"
   },
   "common_action_cancel": {
-    "message": "Cancel"
+    "message": "Abbrechen"
   },
   "common_action_close": {
-    "message": "Close"
+    "message": "Schließen"
   },
   "common_action_next": {
     "message": "Next Step"
@@ -210,13 +210,13 @@
     }
   },
   "view_Welcome_heading": {
-    "message": "Welcome"
+    "message": "Willkommen zu Ihrer AS Wallet"
   },
   "view_Welcome_again": {
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "You currently don’t have any Identities.\nAdd your first Identity to get started."
+    "message": "Sie haben derzeit keine Identitäten.\nFügen Sie ihre ersten Identitäten hinzu."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."

@@ -4,7 +4,7 @@
   "short_name": "__MSG_manifest_short_name__",
   "description": "__MSG_manifest_description__",
   "version": "2022.12.13",
-  "default_locale": "en",
+  "default_locale": "de",
   "browser_action": {
     "default_icon": {
       "16": "icon/light/16.png",
