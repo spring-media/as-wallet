@@ -5,6 +5,7 @@
 
 .heading {
   composes: screenHeadline from '../../components/Typography/Typography.module.css';
+  margin: 40px 0 24px;
 }
 
 .subheading {
@@ -14,23 +15,19 @@
 }
 
 .items {
-  columns: 2;
-  width: 17.75rem;
-  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #F2F2F2;
+  align-self: stretch;
+  grid-gap: 21px 24px;
+  padding: 16px 20px;
+  margin: 0;
 }
 
 .item {
   composes: balanceText from '../../components/Typography/Typography.module.css';
-  margin-bottom: 1.125rem;
-  width: 8.5rem;
-  height: 1.5rem;
   border: 0;
-  border-bottom: 2px dashed var(--color-grey-light);
-  cursor: pointer;
   text-align: left;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-image: url('../../components/images/eye-closed.svg');
   list-style: inside decimal-leading-zero;
   user-select: none;
 }
@@ -38,7 +35,6 @@
 .word {
   composes: subline from '../../components/Typography/Typography.module.css';
   font-size: 1rem;
-  filter: blur(3px);
 }
 
 .item::marker {
@@ -51,11 +47,6 @@
 .item:focus {
   background-image: none;
   user-select: all;
-}
-
-.item:hover .word,
-.item:focus .word {
-  filter: none;
 }
 
 .buttons {
