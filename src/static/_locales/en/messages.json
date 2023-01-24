@@ -9,7 +9,7 @@
     "message": "AS Wallet"
   },
   "manifest_description": {
-    "message": "AS Wallet. Das Wallet für Ihre Zugangsdaten."
+    "message": "Willkommen zur Axel Springer Wallet ."
   },
   "common_action_back": {
     "message": "Zurück"
@@ -322,7 +322,7 @@
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "Sie haben derzeit keine Identitäten.\nFügen Sie ihre ersten Identitäten hinzu."
+    "message": "Sie haben derzeit noch keine Identitäten.\nFügen Sie Ihre erste Identität hinzu, um loszulegen."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."
@@ -334,10 +334,10 @@
     "message": "Terms & Conditions"
   },
   "view_Welcome_create": {
-    "message": "Create Identity"
+    "message": "Weiter →"
   },
   "view_Welcome_import": {
-    "message": "Import an Identity from pre-existing phrase"
+    "message": "Importiere eine Identität"
   },
   "view_Warning_headline": {
     "message": "Attention!"

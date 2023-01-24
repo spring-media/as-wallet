@@ -16,10 +16,7 @@ export function SaveBackupPhrase({ backupPhrase }: Props): JSX.Element {
 
   return (
     <section className={styles.container}>
-      <h1 className={styles.heading}>{t('view_SaveBackupPhrase_heading')}</h1>
-      <p className={styles.subheading}>
-        {t('view_SaveBackupPhrase_explanation')}
-      </p>
+      <h1 className={styles.heading}>{t('view_SaveBackupPhrase_explanation')}</h1>
 
       <ol className={styles.items}>
         {words.map((word, index) => (
