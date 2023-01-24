@@ -39,6 +39,7 @@
 }
 
 .create {
+  margin-top: 1.5rem;
   composes: buttonPrimary from '../../components/Button/Button.module.css';
 }
 
