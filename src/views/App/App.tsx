@@ -50,6 +50,7 @@ export function App(): JSX.Element {
         <RouteExcept path={popupPaths}>
           <Fragment>
             <nav className={styles.menus}>
+              <img src={"as_logo.png"} alt="Axel Springer"/>
               <AddIdentity />
               <Settings />
             </nav>

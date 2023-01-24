@@ -3,13 +3,13 @@
     "message": "en"
   },
   "manifest_name": {
-    "message": "Sporran"
+    "message": "AS Wallet"
   },
   "manifest_short_name": {
-    "message": "Sporran"
+    "message": "AS Wallet"
   },
   "manifest_description": {
-    "message": "Sporran. The wallet for your KILTs and credentials."
+    "message": "AS Wallet. The wallet for your KILTs and credentials."
   },
   "common_action_back": {
     "message": "Back"

@@ -1,64 +1,72 @@
 .screenHeadline {
-  font-family: 'Montserrat SemiBold', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: bold;
   font-size: 1.625rem;
-  color: var(--color-lightest);
+  color: var(--color-black);
   margin: 0;
 }
 
 .importantHeadline {
-  font-family: 'Montserrat Bold', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: bold;
   font-size: 1.5rem;
-  color: var(--color-orange);
+  color: var(--color-black);
 }
 
 .subline {
-  font-family: 'Montserrat Medium', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: normal;
   font-size: 0.875rem;
-  color: var(--color-grey-light);
+  color: var(--color-black);
 }
 
 .identityText {
-  font-family: 'Montserrat SemiBold', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: bold;
   font-size: 1rem;
-  color: var(--color-grey-light);
+  color: var(--color-black);
 }
 
 .buttonText {
-  font-family: 'Montserrat SemiBold', sans-serif;
-  font-size: 0.875rem;
-  color: var(--color-grey-light);
+  font-family: 'Mont AS', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--color-white);
 }
 
 .buttonText:disabled {
-  color: rgb(var(--color-grey-light-rgb) / 20%);
+  color: rgb(var(--color-black-rgb) / 20%);
 }
 
 .balanceText {
-  font-family: 'Montserrat Medium', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: normal;
   font-size: 1.25rem;
-  color: var(--color-lightest);
+  color: var(--color-black);
 }
 
 .smallText {
-  font-family: 'Montserrat Medium', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: normal;
   font-size: 0.75rem;
-  color: var(--color-grey-medium);
+  color: var(--color-black);
 }
 
 .smallImportant {
-  font-family: 'Montserrat Medium', sans-serif;
+  font-family: 'Mont AS', sans-serif;
+  font-weight: normal;
   font-size: 0.75rem;
-  color: var(--color-orange);
+  color: var(--color-blue);
 }
 
 .inputText {
   font-family: 'Roboto Mono', monospace;
   font-size: 0.875rem;
-  color: var(--color-grey-light);
+  color: var(--color-black);
 }
 
 .errorText {
   font-family: 'Roboto Mono', monospace;
   font-size: calc(11rem / 16);
-  color: var(--color-grey-light);
+  color: var(--color-black);
 }

@@ -9,10 +9,9 @@
   height: var(--size);
   vertical-align: middle;
   display: inline-block;
-  border: 0.125em solid var(--color-grey-light);
+  border: 0.125em solid var(--color-grey-medium);
   border-radius: 0.375em;
-  background: linear-gradient(#547099 0%, #304765 45%, #0a1b2f 100%);
-  box-shadow: inset 1px 1px 1px 0 rgb(var(--color-black-rgb) / 20%);
+  background: var(--color-white);
   position: relative;
   cursor: pointer;
 }

@@ -3,6 +3,7 @@
 @import url('~dialog-polyfill/dist/dialog-polyfill.css');
 
 :root {
+  --color-blue: #0000ff;
   --color-orange: #ff6500;
   --color-orange-rgb: 255 101 0;
   --color-dark: #172a40;
@@ -24,31 +25,71 @@
   --color-white: white;
   --color-white-rgb: 255 255 255;
   --input-gradient: linear-gradient(90deg, #335a87 0%, #2f537e 33%, #264262 100%);
-  --popup-width: 480px;
-  --popup-height: 600px;
+  --popup-width: 405px;
+  --popup-height: 566px;
 
   font-size: 16px;
 }
 
 @font-face {
-  font-family: 'Montserrat Bold';
-  font-weight: bold;
-  src: url('./fonts/Montserrat-Bold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Montserrat SemiBold';
-  font-weight: 600;
-  src: url('./fonts/Montserrat-SemiBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Montserrat Medium';
-  font-weight: 500;
-  src: url('./fonts/Montserrat-Medium.woff2') format('woff2');
-}
-
-@font-face {
   font-family: 'Roboto Mono';
-  src: url('fonts/Roboto-Mono.woff2') format('woff2');
+  src: url('./fonts/Roboto-Mono.woff2') format('woff2');
+}
+
+/* Axel Springer CI Fonts */
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./fonts/MontAS-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: italic;
+  font-weight: bold;
+  src: url("./fonts/MontAS-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/MontAS-Heavy.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: italic;
+  font-weight: 900;
+  src: url("./fonts/MontAS-HeavyItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/MontAS-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: italic;
+  font-weight: 300;
+  src: url("./fonts/MontAS-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/MontAS-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mont AS";
+  font-style: italic;
+  font-weight: normal;
+  src: url("./fonts/MontAS-RegularItalic.woff2") format("woff2");
 }
