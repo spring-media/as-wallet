@@ -1,7 +1,7 @@
 .screenHeadline {
   font-family: 'Mont AS', sans-serif;
   font-weight: bold;
-  font-size: 1.625rem;
+  font-size: 16px;
   color: var(--color-black);
   margin: 0;
 }
@@ -16,7 +16,7 @@
 .subline {
   font-family: 'Mont AS', sans-serif;
   font-weight: normal;
-  font-size: 0.875rem;
+  font-size: 16px;
   color: var(--color-black);
 }
 

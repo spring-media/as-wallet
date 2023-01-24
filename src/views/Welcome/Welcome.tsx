@@ -25,7 +25,7 @@ interface Props {
 export function Welcome({ again = false }: Props): JSX.Element | null {
   const t = browser.i18n.getMessage;
 
-  const [enabled, setEnabled] = useState(false);
+  const [enabled, setEnabled] = useState(true);
   const handleTermsClick = useCallback(
     (event: ChangeEvent<HTMLInputElement>) => {
       setEnabled(event.target.checked);

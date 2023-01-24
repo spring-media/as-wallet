@@ -19,6 +19,7 @@
 .termsLine {
   composes: subline from '../../components/Typography/Typography.module.css';
   margin-top: 1.25rem;
+  display: none;
 }
 
 .agreeLabel {
