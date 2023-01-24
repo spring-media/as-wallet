@@ -6,7 +6,8 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background: #223249;
+
+  background: #FFFFFF;
 }
 
 .container {
@@ -14,9 +15,13 @@ body {
 }
 
 .menus {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
   display: flex;
-  gap: 1rem;
+  flex-direction: row;
+  flex: none;
+  align-items: center;
+}
+
+.menus > img {
+  margin-right: auto;
+  height: 33px;
 }

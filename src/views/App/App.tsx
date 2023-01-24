@@ -1,4 +1,5 @@
 import { MemoryRouter, Route, Switch } from 'react-router-dom';
+import { Fragment } from 'react';
 
 import './App.css';
 import * as styles from './App.module.css';
@@ -48,6 +49,7 @@ export function App(): JSX.Element {
       >
         <RouteExcept path={popupPaths}>
           <nav className={styles.menus}>
+            <img src={"as_logo.png"} alt="Axel Springer"/>
             <AddIdentity />
             <Settings />
           </nav>

@@ -196,7 +196,7 @@ function initialize() {
     signExtrinsicWithDid,
     getSignedDidCreationExtrinsic,
     startSession,
-    name: 'Sporran Lite', // manifest_name
+    name: 'AS Wallet', // manifest_name
     version,
     specVersion,
   };
