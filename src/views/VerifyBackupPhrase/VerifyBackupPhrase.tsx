@@ -72,7 +72,6 @@ export function VerifyBackupPhrase({ backupPhrase }: Props): JSX.Element {
                 value={selectedIndex}
                 className={cx(styles.word, {
                   [styles.incorrect]: !correct,
-                  [styles.correct]: correct,
                 })}
                 onClick={unselectWord}
               >
