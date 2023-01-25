@@ -115,7 +115,7 @@ export function VerifyBackupPhrase({ backupPhrase }: Props): JSX.Element {
         </button>
       </form>
 
-      <LinkBack />
+      {/*<LinkBack />*/}
     </main>
   );
 }

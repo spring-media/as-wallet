@@ -22,7 +22,7 @@ export function Warning(): JSX.Element {
         </Link>
       </section>
 
-      <LinkBack/>
+      {/*<LinkBack/>*/}
     </div>
   );
 }

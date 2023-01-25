@@ -35,7 +35,7 @@ export function SaveBackupPhrase({backupPhrase}: Props): JSX.Element {
         </Link>
       </div>
 
-      <LinkBack/>
+      {/*<LinkBack/>*/}
     </section>
   );
 }

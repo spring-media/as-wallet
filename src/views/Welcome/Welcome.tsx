@@ -65,7 +65,7 @@ export function Welcome({ again = false }: Props): JSX.Element | null {
       {/*  {t('view_Welcome_import')}*/}
       {/*</Link>*/}
 
-      {again && <LinkBack />}
+      {/*{again && <LinkBack />}*/}
     </div>
   );
 }
