@@ -60,13 +60,13 @@
 }
 
 .inputText {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Bitter', monospace;
   font-size: 0.875rem;
   color: var(--color-black);
 }
 
 .errorText {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Bitter', monospace;
   font-size: calc(11rem / 16);
   color: var(--color-black);
 }
