@@ -14,10 +14,11 @@
 
 .buttonPrimary:disabled,
 .buttonPrimary[aria-disabled='true'] {
-  opacity: 0.5;
   color: var(--color-white);
   border: 0;
   pointer-events: none;
+  background: #BABABA;
+  cursor: default;
 }
 
 .buttonSecondary {

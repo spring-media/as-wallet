@@ -1,15 +1,14 @@
 .tooltip {
-  --background: rgb(255 0 0 / 50%);
+  --background: #0000ff;
   --arrow: 0.25rem;
-
-  composes: errorText from '../Typography/Typography.module.css';
   position: absolute;
   top: 2.125rem;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
-  border-radius: 0.5rem;
-  padding: 0 0.625rem;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 10px;
   background-color: var(--background);
   white-space: nowrap;
 }
