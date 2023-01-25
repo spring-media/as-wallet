@@ -1,11 +1,12 @@
 .container {
   composes: container from '../../components/View/View.module.css';
   justify-content: center;
+  margin-top: 40px;
 }
 
 .heading {
   composes: screenHeadline from '../../components/Typography/Typography.module.css';
-  margin: 40px 0 24px;
+  margin: 0 0 24px;
 }
 
 .subheading {

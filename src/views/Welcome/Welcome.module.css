@@ -2,6 +2,7 @@
   composes: container from '../../components/View/View.module.css';
   justify-content: center;
   box-sizing: border-box;
+  margin-top: 40px;
 }
 
 .heading {
