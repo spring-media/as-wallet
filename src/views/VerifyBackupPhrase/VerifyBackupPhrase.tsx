@@ -58,8 +58,7 @@ export function VerifyBackupPhrase({ backupPhrase }: Props): JSX.Element {
 
   return (
     <main className={styles.container}>
-      <h1 className={styles.heading}>{t('view_VerifyBackupPhrase_heading')}</h1>
-      <p className={styles.info}>{t('view_VerifyBackupPhrase_explanation')}</p>
+      <p className={styles.heading}>{t('view_VerifyBackupPhrase_explanation')}</p>
 
       <form onSubmit={handleSubmit}>
         <div className={styles.selectedWords} id="selected-words">
@@ -77,11 +76,6 @@ export function VerifyBackupPhrase({ backupPhrase }: Props): JSX.Element {
                 })}
                 onClick={unselectWord}
               >
-                {correct && (
-                  <span className={styles.index}>
-                    {(index + 1).toString().padStart(2, '0')}
-                  </span>
-                )}
                 {selectableWords[selectedIndex]}
               </button>
             );
@@ -110,7 +104,7 @@ export function VerifyBackupPhrase({ backupPhrase }: Props): JSX.Element {
           ))}
         </div>
 
-        <Link to={paths.identity.create.backup} className={styles.submit}>
+        <Link to={paths.identity.create.backup} className={styles.cancel}>
           {t('common_action_back')}
         </Link>
         <button
