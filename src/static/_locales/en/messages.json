@@ -3,28 +3,28 @@
     "message": "en"
   },
   "manifest_name": {
-    "message": "Sporran Lite"
+    "message": "AS Wallet"
   },
   "manifest_short_name": {
-    "message": "Sporran Lite"
+    "message": "AS Wallet"
   },
   "manifest_description": {
-    "message": "Sporran Lite. The wallet for your credentials."
+    "message": "Willkommen zur Axel Springer Wallet."
   },
   "common_action_back": {
-    "message": "Back"
+    "message": "Zurück"
   },
   "common_action_save": {
-    "message": "Save"
+    "message": "Speichern"
   },
   "common_action_cancel": {
-    "message": "Cancel"
+    "message": "Abbrechen"
   },
   "common_action_close": {
-    "message": "Close"
+    "message": "Schließen"
   },
   "common_action_next": {
-    "message": "Next Step"
+    "message": "Weiter →"
   },
   "common_action_confirm": {
     "message": "OK"
@@ -316,13 +316,13 @@
     "message": "info"
   },
   "view_Welcome_heading": {
-    "message": "Welcome"
+    "message": "Willkommen zu Ihrer AS Wallet"
   },
   "view_Welcome_again": {
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "You currently don’t have any Identities.\nAdd your first Identity to get started."
+    "message": "Sie haben derzeit noch keine Identitäten.\nFügen Sie Ihre erste Identität hinzu, um loszulegen."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."
@@ -334,37 +334,37 @@
     "message": "Terms & Conditions"
   },
   "view_Welcome_create": {
-    "message": "Create Identity"
+    "message": "Weiter →"
   },
   "view_Welcome_import": {
-    "message": "Import an Identity from pre-existing phrase"
+    "message": "Importiere eine Identität"
   },
   "view_Warning_headline": {
     "message": "Attention!"
   },
   "view_Warning_emphasis": {
-    "message": "The next step is very important!"
+    "message": "Achtung der nächste Schritt ist sehr wichtig!"
   },
   "view_Warning_explanation": {
-    "message": "Please write down your wallet’s phrase and keep it in a safe place. We recommend that you write down your backup phrase with pen and paper. The phrase is required to restore your Identity."
+    "message": "Bitte notieren Sie den Satz Ihrer Brieftasche und bewahren Sie ihn an einem sicheren Ort auf. Die Phrase ist erforderlich, um Ihre Identität wiederherzustellen. Außerdem können Sie sie auch herunterladen."
   },
   "view_Warning_emphasis_again": {
     "message": "Keep it safe, so you don’t lose\nyour assets"
   },
   "view_Warning_CTA": {
-    "message": "I understand this – go to the phrase"
+    "message": "Weiter →"
   },
   "view_SaveBackupPhrase_heading": {
     "message": "My Backup Phrase"
   },
   "view_SaveBackupPhrase_explanation": {
-    "message": "Click or hover over each word and write it down. You need to write the words in the correct order from 1 to 12."
+    "message": "Bitte schreiben Sie die 12 Wörter in der richtigen Reihenfolge auf oder laden Sie sie herunter:"
   },
   "view_VerifyBackupPhrase_heading": {
     "message": "Check my Backup Phrase"
   },
   "view_VerifyBackupPhrase_explanation": {
-    "message": "To make sure you wrote down your backup phrase accurately, sort your phrase in the correct order from 1 to 12."
+    "message": "Überprüfen Sie meine Phrase in der richtigen Reihenfolge:"
   },
   "view_VerifyBackupPhrase_error": {
     "message": "Please put every word in the correct order"
