@@ -51,7 +51,7 @@ export function App(): JSX.Element {
           <Fragment>
             <nav className={styles.menus}>
               <img src={"as_logo.png"} alt="Axel Springer"/>
-              <AddIdentity />
+              {/*<AddIdentity />*/}
               {/*<Settings />*/}
             </nav>
             <LegacyDids />
