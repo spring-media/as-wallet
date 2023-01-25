@@ -3,13 +3,13 @@
     "message": "en"
   },
   "manifest_name": {
-    "message": "AS Wallet"
+    "message": "Sporran Lite"
   },
   "manifest_short_name": {
-    "message": "AS Wallet"
+    "message": "Sporran Lite"
   },
   "manifest_description": {
-    "message": "AS Wallet. The wallet for your KILTs and credentials."
+    "message": "Sporran Lite. The wallet for your credentials."
   },
   "common_action_back": {
     "message": "Back"
@@ -24,7 +24,7 @@
     "message": "Close"
   },
   "common_action_next": {
-    "message": "Weiter →"
+    "message": "Next Step"
   },
   "common_action_confirm": {
     "message": "OK"
@@ -210,19 +210,19 @@
     }
   },
   "view_Welcome_heading": {
-    "message": "Willkommen zu Ihrer AS Wallet"
+    "message": "Welcome"
   },
   "view_Welcome_again": {
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "Sie haben derzeit noch keine Identitäten.\nFügen Sie Ihre erste Identität hinzu, um loszulegen."
+    "message": "You currently don’t have any Identities.\nAdd your first Identity to get started."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."
   },
   "view_Welcome_create": {
-    "message": "Weiter →"
+    "message": "Create Identity"
   },
   "view_Welcome_import": {
     "message": "Import an Identity from pre-existing phrase"
@@ -231,22 +231,22 @@
     "message": "Attention!"
   },
   "view_Warning_emphasis": {
-    "message": "Achtung der nächste Schritt ist sehr wichtig!"
+    "message": "The next step is very important!"
   },
   "view_Warning_explanation": {
-    "message": "Bitte notieren Sie den Satz Ihrer Brieftasche und bewahren Sie ihn an einem sicheren Ort auf. Die Phrase ist erforderlich, um Ihre Identität wiederherzustellen. Außerdem können Sie sie auch herunterladen."
+    "message": "Please write down your wallet’s phrase and keep it in a safe place. We recommend that you write down your backup phrase with pen and paper. The phrase is required to restore your Identity."
   },
   "view_Warning_emphasis_again": {
     "message": "Keep it safe, so you don’t lose\nyour assets"
   },
   "view_Warning_CTA": {
-    "message": "Weiter →"
+    "message": "I understand this – go to the phrase"
   },
   "view_SaveBackupPhrase_heading": {
     "message": "My Backup Phrase"
   },
   "view_SaveBackupPhrase_explanation": {
-    "message": "Bitte schreiben Sie die 12 Wörter in der richtigen Reihenfolge auf:"
+    "message": "Click or hover over each word and write it down. You need to write the words in the correct order from 1 to 12."
   },
   "view_VerifyBackupPhrase_heading": {
     "message": "Check my Backup Phrase"
