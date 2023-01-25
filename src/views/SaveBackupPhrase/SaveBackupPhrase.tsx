@@ -1,16 +1,16 @@
-import { browser } from 'webextension-polyfill-ts';
-import { Link } from 'react-router-dom';
+import {browser} from 'webextension-polyfill-ts';
+import {Link, useHistory} from 'react-router-dom';
 
 import * as styles from './SaveBackupPhrase.module.css';
 
-import { LinkBack } from '../../components/LinkBack/LinkBack';
-import { paths } from '../paths';
+import {LinkBack} from '../../components/LinkBack/LinkBack';
+import {paths} from '../paths';
 
 interface Props {
   backupPhrase: string;
 }
 
-export function SaveBackupPhrase({ backupPhrase }: Props): JSX.Element {
+export function SaveBackupPhrase({backupPhrase}: Props): JSX.Element {
   const words = backupPhrase.split(/\s+/);
   const t = browser.i18n.getMessage;
 
@@ -27,15 +27,15 @@ export function SaveBackupPhrase({ backupPhrase }: Props): JSX.Element {
       </ol>
 
       <div className={styles.buttons}>
-        <Link to={paths.home} className={styles.cancel}>
-          {t('common_action_cancel')}
+        <Link to={paths.identity.create.start} className={styles.create}>
+          {t('common_action_back')}
         </Link>
         <Link to={paths.identity.create.verify} className={styles.create}>
           {t('common_action_next')}
         </Link>
       </div>
 
-      <LinkBack />
+      <LinkBack/>
     </section>
   );
 }

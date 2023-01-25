@@ -36,3 +36,8 @@
   composes: buttonSecondary from '../../components/Button/Button.module.css';
   margin-top: 40px;
 }
+
+.actionSection {
+  display: flex;
+  gap: 26px
+}

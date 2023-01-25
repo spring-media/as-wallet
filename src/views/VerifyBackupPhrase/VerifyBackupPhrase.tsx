@@ -110,8 +110,8 @@ export function VerifyBackupPhrase({ backupPhrase }: Props): JSX.Element {
           ))}
         </div>
 
-        <Link to={paths.home} className={styles.cancel}>
-          {t('common_action_cancel')}
+        <Link to={paths.identity.create.backup} className={styles.submit}>
+          {t('common_action_back')}
         </Link>
         <button
           type="submit"
