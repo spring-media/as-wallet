@@ -5,7 +5,8 @@
 
 import { setupGetMessageShim } from 'chrome-extension-i18n-shim';
 
-import messagesEN from '../static/_locales/en/messages.json';
+import messagesEN from '../static/_locales/de/messages.json';
+import messagesDE from '../static/_locales/en/messages.json';
 
 export const browser = {
   tabs: {
