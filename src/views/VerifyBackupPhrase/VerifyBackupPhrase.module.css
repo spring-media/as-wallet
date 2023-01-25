@@ -94,5 +94,5 @@
 
 .submit {
   composes: buttonPrimary from '../../components/Button/Button.module.css';
-  margin-left: 1rem;
+  margin-left: 26px;
 }
