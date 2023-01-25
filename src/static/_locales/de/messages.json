@@ -358,7 +358,7 @@
     "message": "My Backup Phrase"
   },
   "view_SaveBackupPhrase_explanation": {
-    "message": "Bitte schreiben Sie die 12 Wörter in der richtigen Reihenfolge auf:"
+    "message": "Bitte schreiben Sie die 12 Wörter in der richtigen Reihenfolge auf oder laden Sie sie herunter:"
   },
   "view_VerifyBackupPhrase_heading": {
     "message": "Check my Backup Phrase"
