@@ -23,9 +23,9 @@
 }
 
 .info {
-  font-family: 'Mont AS', serif;
   font-size: 16px;
   margin: 16px 0 0;
+  font-family: 'Bitter', monospace;
 }
 
 .confirm {
