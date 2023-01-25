@@ -29,10 +29,10 @@
 
 .confirm {
   composes: buttonPrimary from '../../components/Button/Button.module.css';
-  margin-top: 1.5rem;
+  margin-top: 40px;
 }
 
 .cancel {
   composes: buttonSecondary from '../../components/Button/Button.module.css';
-  margin-top: 1rem;
+  margin-top: 40px;
 }
