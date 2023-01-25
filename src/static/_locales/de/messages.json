@@ -1,6 +1,6 @@
 {
   "messages_locale": {
-    "message": "en"
+    "message": "de"
   },
   "manifest_name": {
     "message": "AS Wallet"
@@ -9,19 +9,19 @@
     "message": "AS Wallet"
   },
   "manifest_description": {
-    "message": "AS Wallet. The wallet for your KILTs and credentials."
+    "message": "Willkommen zur Axel Springer Wallet."
   },
   "common_action_back": {
-    "message": "Back"
+    "message": "Zurück"
   },
   "common_action_save": {
-    "message": "Save"
+    "message": "Speichern"
   },
   "common_action_cancel": {
-    "message": "Cancel"
+    "message": "Abbrechen"
   },
   "common_action_close": {
-    "message": "Close"
+    "message": "Schließen"
   },
   "common_action_next": {
     "message": "Weiter →"
@@ -316,13 +316,13 @@
     "message": "info"
   },
   "view_Welcome_heading": {
-    "message": "Welcome to your AS Wallet"
+    "message": "Willkommen zu Ihrer AS Wallet"
   },
   "view_Welcome_again": {
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "You currently don’t have any Identities.\nAdd your first Identity to get started."
+    "message": "Sie haben derzeit noch keine Identitäten.\nFügen Sie Ihre erste Identität hinzu, um loszulegen."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."
@@ -334,10 +334,10 @@
     "message": "Terms & Conditions"
   },
   "view_Welcome_create": {
-    "message": "Create Identity"
+    "message": "Weiter →"
   },
   "view_Welcome_import": {
-    "message": "Import an Identity from pre-existing phrase"
+    "message": "Importiere eine Identität"
   },
   "view_Warning_headline": {
     "message": "Attention!"
