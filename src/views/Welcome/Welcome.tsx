@@ -110,14 +110,14 @@ export function Welcome({ again = false }: Props): JSX.Element | null {
         {t('view_Welcome_create')}
       </Link>
 
-      <Link
-        to={paths.identity.import.start}
-        className={styles.importPhrase}
-        onClick={handleLinkClick}
-        aria-disabled={!enabled}
-      >
-        {t('view_Welcome_import')}
-      </Link>
+      {/*<Link*/}
+      {/*  to={paths.identity.import.start}*/}
+      {/*  className={styles.importPhrase}*/}
+      {/*  onClick={handleLinkClick}*/}
+      {/*  aria-disabled={!enabled}*/}
+      {/*>*/}
+      {/*  {t('view_Welcome_import')}*/}
+      {/*</Link>*/}
 
       {again && <LinkBack />}
     </div>
