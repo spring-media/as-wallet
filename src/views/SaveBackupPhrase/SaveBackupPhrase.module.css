@@ -42,7 +42,7 @@
 
 .word {
   composes: subline from '../../components/Typography/Typography.module.css';
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 .item::marker {
