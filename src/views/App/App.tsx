@@ -36,6 +36,7 @@ export function App(): JSX.Element {
     paths.popup.claim,
     paths.popup.signDidExtrinsic,
     paths.popup.createDid,
+    paths.popup.ASUserData,
   ];
 
   // Without this workaround the IdentitiesRouter will never load identities, seems like a library bug
