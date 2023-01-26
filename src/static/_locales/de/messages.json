@@ -216,7 +216,7 @@
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "Sie haben derzeit noch keine Identitäten.\nFügen Sie Ihre erste Identität hinzu, um loszulegen."
+    "message": "Sie haben derzeit noch keine Identität.\nFügen Sie Ihre Identität hinzu, um loszulegen."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."
@@ -231,10 +231,10 @@
     "message": "Attention!"
   },
   "view_Warning_emphasis": {
-    "message": "Achtung der nächste Schritt ist sehr wichtig!"
+    "message": "Achtung, der nächste Schritt ist sehr wichtig!"
   },
   "view_Warning_explanation": {
-    "message": "Bitte notieren Sie den Satz Ihrer Brieftasche und bewahren Sie ihn an einem sicheren Ort auf. Die Phrase ist erforderlich, um Ihre Identität wiederherzustellen. Außerdem können Sie sie auch herunterladen."
+    "message": "Bitte notieren Sie sich die Reihenfolge der folgenden Wörter oder laden Sie sich die Datei runter und speichern sie ab. Die Reihenfolge ist erforderlich, um Ihre Identität wiederherzustellen."
   },
   "view_Warning_emphasis_again": {
     "message": "Keep it safe, so you don’t lose\nyour assets"
@@ -246,7 +246,7 @@
     "message": "My Backup Phrase"
   },
   "view_SaveBackupPhrase_explanation": {
-    "message": "Bitte schreiben Sie die 12 Wörter in der richtigen Reihenfolge auf"
+    "message": "Bitte sortieren Sie die 12 Wörter in der richtigen Reihenfolge"
   },
   "view_SaveBackupPhrase_download": {
     "message": "oder laden Sie sie herunter:"
@@ -255,7 +255,7 @@
     "message": "Check my Backup Phrase"
   },
   "view_VerifyBackupPhrase_explanation": {
-    "message": "Überprüfen Sie meine Phrase in der richtigen Reihenfolge:"
+    "message": "Überprüfen Sie die Reihenfolge der Wörter:"
   },
   "view_VerifyBackupPhrase_error": {
     "message": "Please put every word in the correct order"
@@ -332,7 +332,7 @@
     "message": "DON’T USE OUR EXAMPLE"
   },
   "view_CreatePassword_label": {
-    "message": "Bitte geben Sie Ihr passwort ein"
+    "message": "Bitte geben Sie Ihr Passwort ein"
   },
   "component_usePasswordType_show": {
     "message": "Anzeigen"

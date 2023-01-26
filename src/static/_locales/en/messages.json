@@ -3,13 +3,13 @@
     "message": "en"
   },
   "manifest_name": {
-    "message": "Sporran Lite"
+    "message": "AS Wallet"
   },
   "manifest_short_name": {
-    "message": "Sporran Lite"
+    "message": "AS Wallet"
   },
   "manifest_description": {
-    "message": "Sporran Lite. The wallet for your credentials."
+    "message": "Welcome to your Axel Springer Wallet"
   },
   "common_action_back": {
     "message": "Back"
@@ -24,7 +24,7 @@
     "message": "Close"
   },
   "common_action_next": {
-    "message": "Next Step"
+    "message": "Next step →"
   },
   "common_action_confirm": {
     "message": "OK"
@@ -316,49 +316,49 @@
     "message": "info"
   },
   "view_Welcome_heading": {
-    "message": "Welcome"
+    "message": "Welcome to your AS Wallet"
   },
   "view_Welcome_again": {
     "message": "Add Identity"
   },
   "view_Welcome_noIdentities": {
-    "message": "You currently don’t have any Identities.\nAdd your first Identity to get started."
+    "message": "You currently don’t have an Identity.\nAdd your Identity to get started."
   },
   "view_Welcome_addAnother": {
     "message": ". Add another one."
   },
   "view_Welcome_agree": {
-    "message": " I have read and agree to the "
+    "message": "Next step →"
   },
   "view_Welcome_terms": {
     "message": "Terms & Conditions"
   },
   "view_Welcome_create": {
-    "message": "Create Identity"
+    "message": "Next step →"
   },
   "view_Welcome_import": {
-    "message": "Import an Identity from pre-existing phrase"
+    "message": "Import an Identity"
   },
   "view_Warning_headline": {
     "message": "Attention!"
   },
   "view_Warning_emphasis": {
-    "message": "The next step is very important!"
+    "message": "Attention, the next step is very important!"
   },
   "view_Warning_explanation": {
-    "message": "Please write down your wallet’s phrase and keep it in a safe place. We recommend that you write down your backup phrase with pen and paper. The phrase is required to restore your Identity."
+    "message": "Please write down or download the order of the following words. The right order of the words is required to restore your Identity."
   },
   "view_Warning_emphasis_again": {
     "message": "Keep it safe, so you don’t lose\nyour assets"
   },
   "view_Warning_CTA": {
-    "message": "I understand this – go to the phrase"
+    "message": "Next step →"
   },
   "view_SaveBackupPhrase_heading": {
     "message": "My Backup Phrase"
   },
   "view_SaveBackupPhrase_explanation": {
-    "message": "Click or hover over each word and write it down. You need to write the words in the correct order from 1 to 12."
+    "message": "Please put the words in the correct order from 1 to 12."
   },
   "view_SaveBackupPhrase_download": {
     "message": "or download it:"
@@ -367,7 +367,7 @@
     "message": "Check my Backup Phrase"
   },
   "view_VerifyBackupPhrase_explanation": {
-    "message": "To make sure you wrote down your backup phrase accurately, sort your phrase in the correct order from 1 to 12."
+    "message": "Check the correct order of the words from 1 to 12."
   },
   "view_VerifyBackupPhrase_error": {
     "message": "Please put every word in the correct order"
@@ -397,10 +397,10 @@
     "message": "It looks like there’s a typo in this word"
   },
   "view_CreatePassword_heading": {
-    "message": "Set Identity Password"
+    "message": "Set up your Wallet"
   },
   "view_CreatePassword_explanation": {
-    "message": "You need a secure password for every Identity. A strong password looks like this: "
+    "message": "You need a secure password for every Identity:"
   },
   "view_CreatePassword_example": {
     "message": "House 12! small DOGS"
@@ -453,7 +453,7 @@
     "message": "Hide"
   },
   "view_CreatePassword_CTA": {
-    "message": "Next Step"
+    "message": "Create Wallet →"
   },
   "view_ReceiveToken_heading": {
     "message": "Receive"
