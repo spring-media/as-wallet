@@ -9,6 +9,10 @@
   margin: 0 0 25px;
 }
 
+.heading > a {
+  color: inherit;
+}
+
 .subheading {
   composes: subline from '../../components/Typography/Typography.module.css';
   text-align: center;
