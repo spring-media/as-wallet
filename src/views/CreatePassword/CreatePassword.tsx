@@ -34,17 +34,12 @@ function isLong(value: string): boolean {
   return value.length >= MIN_LENGTH;
 }
 
-function isNotExample(value: string): boolean {
-  return value !== browser.i18n.getMessage('view_CreatePassword_example');
-}
-
 function getComplexityClassName(password: string): string {
   const complexity = [
     hasBothCases(password),
     hasNumber(password),
     hasOther(password),
     isLong(password),
-    isNotExample(password),
   ].filter(Boolean).length;
 
   const classNames = [
@@ -81,7 +76,6 @@ export function CreatePassword({ onSuccess }: Props): JSX.Element {
       !hasNumber(password) && t('view_CreatePassword_error_numbers'),
       !hasOther(password) && t('view_CreatePassword_error_other'),
       !isLong(password) && t('view_CreatePassword_error_length', [MIN_LENGTH]),
-      !isNotExample(password) && t('view_CreatePassword_error_example'),
     ].filter(Boolean)[0];
 
   const handleSubmit = useCallback(
@@ -103,31 +97,9 @@ export function CreatePassword({ onSuccess }: Props): JSX.Element {
   return (
     <main className={styles.container}>
       <h1 className={styles.heading}>{t('view_CreatePassword_heading')}</h1>
-      <p className={styles.subline}>
+      <p className={styles.heading}>
         {t('view_CreatePassword_explanation')}{' '}
-        {t('view_CreatePassword_example')}
       </p>
-
-      <h2 className={styles.criteriaHeading}>
-        {t('view_CreatePassword_criteria')}
-      </h2>
-      <ul className={styles.criteria}>
-        <li className={makeClasses(hasBothCases)}>
-          {t('view_CreatePassword_criteria_cases')}
-        </li>
-        <li className={makeClasses(hasOther)}>
-          {t('view_CreatePassword_criteria_other')}
-        </li>
-        <li className={makeClasses(isLong)}>
-          {t('view_CreatePassword_criteria_length')}
-        </li>
-        <li className={makeClasses(hasNumber)}>
-          {t('view_CreatePassword_criteria_numbers')}
-        </li>
-        <li className={makeClasses(isNotExample)}>
-          {t('view_CreatePassword_criteria_example')}
-        </li>
-      </ul>
 
       <form onSubmit={handleSubmit}>
         <p className={styles.inputLine}>
@@ -144,18 +116,28 @@ export function CreatePassword({ onSuccess }: Props): JSX.Element {
             placeholder={t('view_CreatePassword_label')}
           />
 
-          {passwordToggle}
-
           <output className={styles.errorTooltip} hidden={!error}>
             {error}
           </output>
         </p>
 
-        <div
-          className={`${styles.complexity} ${getComplexityClassName(password)}`}
-        >
-          <div className={styles.lock} />
-        </div>
+        <h2 className={styles.criteriaHeading}>
+          {t('view_CreatePassword_criteria')}
+        </h2>
+        <ul className={styles.criteria}>
+          <li className={makeClasses(hasBothCases)}>
+            {t('view_CreatePassword_criteria_cases')}
+          </li>
+          <li className={makeClasses(hasOther)}>
+            {t('view_CreatePassword_criteria_other')}
+          </li>
+          <li className={makeClasses(isLong)}>
+            {t('view_CreatePassword_criteria_length')}
+          </li>
+          <li className={makeClasses(hasNumber)}>
+            {t('view_CreatePassword_criteria_numbers')}
+          </li>
+        </ul>
 
         <p>
           <Link to={paths.home} className={styles.cancel}>
@@ -172,7 +154,6 @@ export function CreatePassword({ onSuccess }: Props): JSX.Element {
         </p>
       </form>
 
-      <LinkBack />
     </main>
   );
 }

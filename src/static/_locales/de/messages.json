@@ -285,43 +285,43 @@
     "message": "It looks like there’s a typo in this word"
   },
   "view_CreatePassword_heading": {
-    "message": "Set Identity Password"
+    "message": "Wallet einrichten"
   },
   "view_CreatePassword_explanation": {
-    "message": "You need a secure password for every Identity. A strong password looks like this: "
+    "message": "Ein sicheres Passwort wählen:"
   },
   "view_CreatePassword_example": {
     "message": "House 12! small DOGS"
   },
   "view_CreatePassword_criteria": {
-    "message": "You need to use:"
+    "message": "Das Passwort benötigt:"
   },
   "view_CreatePassword_criteria_cases": {
-    "message": "uppercase and lowercase letters"
+    "message": "Groß- und Kleinbuchstaben"
   },
   "view_CreatePassword_criteria_numbers": {
-    "message": "numbers"
+    "message": "Zahlen"
   },
   "view_CreatePassword_criteria_other": {
-    "message": "punctuation or special characters"
+    "message": "Sonderzeichen"
   },
   "view_CreatePassword_criteria_length": {
-    "message": "12 characters minimum"
+    "message": "Mindestens 12 Zeichen"
   },
   "view_CreatePassword_criteria_example": {
     "message": "and don’t use our example"
   },
   "view_CreatePassword_error_cases": {
-    "message": "You need to use both uppercase and lowercase letters"
+    "message": "Das Passwort muss Groß- und Kleinbuchstaben enthalten"
   },
   "view_CreatePassword_error_numbers": {
-    "message": "You need to use at least one number"
+    "message": "Das Passwort muss mindestens eine Zahl enthalten"
   },
   "view_CreatePassword_error_other": {
-    "message": "You need to use at least one special character"
+    "message": "Das Passwort muss mindestens ein Sonderzeichen enthalten"
   },
   "view_CreatePassword_error_length": {
-    "message": "You need to use at least $minimum$ characters",
+    "message": "Das Passwort muss mindestens $minimum$ Zeichen enthalten",
     "placeholders": {
       "minimum": {
         "content": "$1"
@@ -332,16 +332,16 @@
     "message": "DON’T USE OUR EXAMPLE"
   },
   "view_CreatePassword_label": {
-    "message": "Please enter your password"
+    "message": "Bitte geben Sie Ihr passwort ein"
   },
   "component_usePasswordType_show": {
-    "message": "Show"
+    "message": "Anzeigen"
   },
   "component_usePasswordType_hide": {
-    "message": "Hide"
+    "message": "Verstecken"
   },
   "view_CreatePassword_CTA": {
-    "message": "Next Step"
+    "message": "Wallet Erstellen →"
   },
   "view_IdentityOverview_title": {
     "message": "Your Identities"
