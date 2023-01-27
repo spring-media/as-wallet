@@ -434,7 +434,7 @@
     "message": "Registrierungsname"
   },
   "view_ShareCredentialSign_CTA": {
-    "message": "Share"
+    "message": "Teilen"
   },
   "view_ShareCredentialSign_error": {
     "message": "The selected credential has not been attested."
