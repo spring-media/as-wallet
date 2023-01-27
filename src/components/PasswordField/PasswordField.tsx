@@ -170,15 +170,6 @@ export function PasswordField({
         <label className={styles.passwordLabel} htmlFor="password">
           {t('component_PasswordField_password')}
         </label>
-
-        <RouteExcept path={paths.popup.base}>
-          <Link
-            to={generatePath(paths.identity.reset.start, { address })}
-            className={styles.reset}
-          >
-            {t('component_PasswordField_reset')}
-          </Link>
-        </RouteExcept>
       </p>
 
       <p className={styles.passwordLine}>
@@ -191,23 +182,11 @@ export function PasswordField({
           defaultValue={savedPassword ? asterisks : undefined}
           autoFocus={autoFocus}
         />
-        {passwordToggle}
-
         <output className={styles.errorTooltip} hidden={!error}>
           {error}
         </output>
       </p>
 
-      <label className={styles.rememberLabel}>
-        <span>{t('component_PasswordField_remember')}</span>
-        <input
-          type="checkbox"
-          name="remember"
-          className={styles.remember}
-          ref={rememberRef}
-        />
-        <span />
-      </label>
     </Fragment>
   );
 }
