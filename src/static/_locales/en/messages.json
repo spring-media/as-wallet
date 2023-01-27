@@ -228,7 +228,7 @@
     "message": "Credential hash"
   },
   "component_CredentialCard_pending": {
-    "message": "Pending"
+    "message": "Ausstehend"
   },
   "component_CredentialCard_attested": {
     "message": "Bescheinigt"
