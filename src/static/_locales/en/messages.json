@@ -18,7 +18,7 @@
     "message": "Save"
   },
   "common_action_cancel": {
-    "message": "Cancel"
+    "message": "Abbrechen"
   },
   "common_action_close": {
     "message": "Close"
@@ -207,7 +207,7 @@
     "message": "Remove credential"
   },
   "component_CredentialCard_name": {
-    "message": "Credential name"
+    "message": "Registrierungsname"
   },
   "component_CredentialCard_edit_name": {
     "message": "Edit credential name"
@@ -231,7 +231,7 @@
     "message": "Pending"
   },
   "component_CredentialCard_attested": {
-    "message": "Attested"
+    "message": "Bescheinigt"
   },
   "component_CredentialCard_revoked": {
     "message": "Revoked"
@@ -276,7 +276,7 @@
     "message": "Don’t show this message again"
   },
   "component_ShareCredentialCard_required": {
-    "message": "* required"
+    "message": "* benötigt"
   },
   "component_YouHaveIdentities_one": {
     "message": "You have $number$ Identity",
@@ -681,13 +681,13 @@
     "message": "How To Get Credentials"
   },
   "view_ShareCredentialSelect_heading": {
-    "message": "Select a Credential"
+    "message": "Registrierung auswählen"
   },
   "view_ShareCredentialSelect_subline": {
-    "message": "Select a credential to sign and share"
+    "message": "Auswählen und Daten teilen"
   },
   "view_ShareCredentialSelect_next": {
-    "message": "Next"
+    "message": "Weiter →"
   },
   "view_ShareCredentialSelect_no_credentials": {
     "message": "No credentials available"
@@ -702,7 +702,7 @@
     "message": "Check the information you’re about to share"
   },
   "view_ShareCredentialSign_name": {
-    "message": "Credential name"
+    "message": "Registrierungsname"
   },
   "view_ShareCredentialSign_CTA": {
     "message": "Share"
