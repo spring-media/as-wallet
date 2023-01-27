@@ -30,7 +30,7 @@
     "message": "OK"
   },
   "common_action_sign": {
-    "message": "Sign"
+    "message": "Registrieren"
   },
   "component_IdentitySlide_name": {
     "message": "Identity name:"
@@ -547,7 +547,7 @@
     "message": "Create On-chain DID"
   },
   "view_CreateDidDApp_origin": {
-    "message": "Request from:"
+    "message": "Angefragt von:"
   },
   "view_CreateDidDApp_error_full_did": {
     "message": "DID already on chain"
@@ -676,5 +676,20 @@
   },
   "component_extrinsicDetails_info": {
     "message": "info"
+  },
+  "view_ASUserData_heading": {
+    "message": "Ihre Regestrirungsinformationen erstellen"
+  },
+  "view_ASUserData_origin": {
+    "message": "Request from:"
+  },
+  "view_ASUserData_error_full_did": {
+    "message": "DID already on chain"
+  },
+  "view_ASUserData_name": {
+    "message": "Name"
+  },
+  "view_ASUserData_email": {
+    "message": "Email"
   }
 }

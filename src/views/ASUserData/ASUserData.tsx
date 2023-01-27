@@ -1,22 +1,23 @@
-import { FormEvent, useCallback } from 'react';
-import { browser } from 'webextension-polyfill-ts';
+import {FormEvent, useCallback} from 'react';
+import {browser} from 'webextension-polyfill-ts';
 import * as Did from '@kiltprotocol/did';
 
 import * as styles from './ASUserData.module.css';
 
-import { ASUserDataOriginInput } from '../../channels/ASUserDataChannels/types';
+import {ASUserDataOriginInput} from '../../channels/ASUserDataChannels/types';
 import {
   PasswordField,
   usePasswordField,
 } from '../../components/PasswordField/PasswordField';
-import { isFullDid, parseDidUri } from '../../utilities/did/did';
+import {isFullDid, parseDidUri} from '../../utilities/did/did';
 
-import { Identity } from '../../utilities/identities/types';
-import { usePopupData } from '../../utilities/popups/usePopupData';
-import { IdentitiesCarousel } from '../../components/IdentitiesCarousel/IdentitiesCarousel';
+import {Identity} from '../../utilities/identities/types';
+import {usePopupData} from '../../utilities/popups/usePopupData';
+import {IdentitiesCarousel} from '../../components/IdentitiesCarousel/IdentitiesCarousel';
 
-import { backgroundASUserDataChannel } from '../../channels/ASUserDataChannels/backgroundASUserDataChannel';
-import { getIdentityCryptoFromSeed } from '../../utilities/identities/identities';
+import {backgroundASUserDataChannel} from '../../channels/ASUserDataChannels/backgroundASUserDataChannel';
+import {getIdentityCryptoFromSeed} from '../../utilities/identities/identities';
+import {inputHeading} from "./ASUserData.module.css";
 
 // const ASUserCType: ICType = {};
 
@@ -24,12 +25,12 @@ interface Props {
   identity: Identity;
 }
 
-export function ASUserData({ identity }: Props): JSX.Element {
+export function ASUserData({identity}: Props): JSX.Element {
   const t = browser.i18n.getMessage;
 
-  const { did } = identity;
+  const {did} = identity;
 
-  const { origin, submitter } = usePopupData<ASUserDataOriginInput>();
+  const {origin, submitter} = usePopupData<ASUserDataOriginInput>();
 
   const passwordField = usePasswordField();
 
@@ -46,15 +47,15 @@ export function ASUserData({ identity }: Props): JSX.Element {
       const name = (formData.get('name') as string).trim();
       const email = (formData.get('email') as string).trim();
 
-      const { seed } = await passwordField.get(event);
+      const {seed} = await passwordField.get(event);
 
-      const { didDocument, sign } = await getIdentityCryptoFromSeed(seed);
-      const { fullDid: did } = parseDidUri(didDocument.uri);
+      const {didDocument, sign} = await getIdentityCryptoFromSeed(seed);
+      const {fullDid: did} = parseDidUri(didDocument.uri);
 
       const storeTx = await Did.getStoreTx(
         didDocument,
         submitter,
-        async (input) => sign({ ...input, did }),
+        async (input) => sign({...input, did}),
       );
       const createDidExtrinsic = storeTx.method.toHex();
 
@@ -73,37 +74,40 @@ export function ASUserData({ identity }: Props): JSX.Element {
     window.close();
   }, []);
 
+  //<IdentitiesCarousel identity={identity} />
+
   return (
     <form className={styles.container} onSubmit={handleSubmit}>
       <h1 className={styles.heading}>{t('view_ASUserData_heading')}</h1>
 
-      <IdentitiesCarousel identity={identity} />
 
       <section className={styles.details}>
         <p className={styles.label}>{t('view_ASUserData_origin')}</p>
         <p className={styles.origin}>{origin}</p>
       </section>
 
+      <h3 className={styles.inputHeading}>Name</h3>
       <input
         className={styles.input}
         type="text"
-        name="name"
+
         placeholder={t('view_ASUserData_name')}
         required
       />
 
+      <h3 className={styles.inputHeading}>Email</h3>
       <input
         className={styles.input}
         type="email"
-        name="email"
+
         placeholder={t('view_ASUserData_email')}
         required
       />
 
-      <PasswordField identity={identity} autoFocus password={passwordField} />
+      <PasswordField identity={identity} autoFocus password={passwordField}/>
 
       <p className={styles.buttonsLine}>
-        <button onClick={handleCancel} type="button" className={styles.reject}>
+        <button onClick={handleCancel} type="button" className={styles.submit}>
           {t('common_action_cancel')}
         </button>
         <button

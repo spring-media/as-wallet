@@ -9,3 +9,4 @@ export const reject: string;
 export const submit: string;
 export const errorTooltip: string;
 export const input: string;
+export const inputHeading: string
