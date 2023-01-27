@@ -1,8 +1,8 @@
 .card {
   box-sizing: border-box;
   width: 100%;
-  border-radius: 0.75rem 0.75rem 0 0;
-  border: 1px solid rgb(var(--color-white-rgb) / 10%);
+  border-radius: 0.2rem 0.2rem 0 0;
+  border: 1px solid black;
   /*box-shadow: 0 -1px 2px 0 rgb(var(--color-black-rgb) / 30%);*/
 
   --notification-size: 0.625rem;
@@ -20,7 +20,7 @@
 }
 
 .card:nth-child(2n) {
-  background-color: var(--color-white);
+  background-color: var(--color-grey-light);
 
   --card-color-secondary: var(--color-medium);
   --card-color-tertiary: #637ba3;
