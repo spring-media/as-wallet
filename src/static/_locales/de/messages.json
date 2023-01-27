@@ -116,10 +116,10 @@
     "message": "Reset password"
   },
   "component_PasswordField_password": {
-    "message": "Sign with password:"
+    "message": "Geben Sie ihr Wallet Passwort ein:"
   },
   "component_PasswordField_password_incorrect": {
-    "message": "The password is incorrect"
+    "message": "Das Passwort ist nicht korrekt"
   },
   "component_PasswordField_remember": {
     "message": "Remember password for the next 15 minutes"
@@ -425,10 +425,10 @@
     "message": "Get Credentials"
   },
   "view_ShareCredentialSign_heading": {
-    "message": "Share Credential"
+    "message": "Daten teilen"
   },
   "view_ShareCredentialSign_subline": {
-    "message": "Check the information you’re about to share"
+    "message": "Überprüfe, welche deiner Daten du mit der Seite teilen möchtest."
   },
   "view_ShareCredentialSign_name": {
     "message": "Registrierungsname"

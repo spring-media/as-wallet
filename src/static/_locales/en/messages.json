@@ -186,7 +186,7 @@
     "message": "Reset password"
   },
   "component_PasswordField_password": {
-    "message": "Sign with password:"
+    "message": "Enter your wallet passsword:"
   },
   "component_PasswordField_password_incorrect": {
     "message": "The password is incorrect"
@@ -696,10 +696,10 @@
     "message": "Get Credentials"
   },
   "view_ShareCredentialSign_heading": {
-    "message": "Share Credential"
+    "message": "Share Data"
   },
   "view_ShareCredentialSign_subline": {
-    "message": "Check the information you’re about to share"
+    "message": "Check the information you’re about to share."
   },
   "view_ShareCredentialSign_name": {
     "message": "Registrierungsname"

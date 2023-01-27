@@ -130,14 +130,14 @@ export function ShareCredentialSign({
         <dl className={styles.details}>
           <div className={styles.name}>
             <dt className={styles.detailName}>
-              {t('view_ShareCredentialSign_name')}
+              {t('view_ShareCredentialSign_name')}:
             </dt>
             <dd className={styles.detailValue}>{sporranCredential.name}</dd>
           </div>
 
           {sharedContents.map((sharedProp) => (
             <div key={sharedProp} className={styles.detail}>
-              <dt className={styles.detailName}>{sharedProp}</dt>
+              <dt className={styles.detailName}>{sharedProp}:</dt>
               <dd className={styles.detailValue}>
                 {String(
                   sporranCredential.credential.claim.contents[sharedProp],
