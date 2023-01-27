@@ -126,8 +126,6 @@ export function ShareCredentialSign({
       </h1>
       <p className={styles.subline}>{t('view_ShareCredentialSign_subline')}</p>
 
-      <IdentitySlide identity={identity} />
-
       <section className={styles.detailsContainer}>
         <dl className={styles.details}>
           <div className={styles.name}>
