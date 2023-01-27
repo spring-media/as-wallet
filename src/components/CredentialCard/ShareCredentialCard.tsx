@@ -210,30 +210,30 @@ export function ShareCredentialCard({
             )}
           </section>
 
-          <h4 className={styles.shareTechnical}>
-            {t('component_CredentialCard_technical')}
-          </h4>
+          {/*<h4 className={styles.shareTechnical}>*/}
+          {/*  {t('component_CredentialCard_technical')}*/}
+          {/*</h4>*/}
 
-          <dl className={styles.details}>
-            <div className={styles.detail}>
-              <dt className={styles.detailName}>
-                {t('component_CredentialCard_ctype')}
-              </dt>
-              <dd className={styles.detailValue}>{cTypeTitle}</dd>
-            </div>
-            <div className={styles.detail}>
-              <dt className={styles.detailName}>
-                {t('component_CredentialCard_attester')}
-              </dt>
-              <dd className={styles.detailValue}>{attester}</dd>
-            </div>
-            <div className={styles.hash}>
-              <dt className={styles.detailName}>
-                {t('component_CredentialCard_hash')}
-              </dt>
-              <dd className={styles.detailValue}>{credential.rootHash}</dd>
-            </div>
-          </dl>
+          {/*<dl className={styles.details}>*/}
+          {/*  <div className={styles.detail}>*/}
+          {/*    <dt className={styles.detailName}>*/}
+          {/*      {t('component_CredentialCard_ctype')}*/}
+          {/*    </dt>*/}
+          {/*    <dd className={styles.detailValue}>{cTypeTitle}</dd>*/}
+          {/*  </div>*/}
+          {/*  <div className={styles.detail}>*/}
+          {/*    <dt className={styles.detailName}>*/}
+          {/*      {t('component_CredentialCard_attester')}*/}
+          {/*    </dt>*/}
+          {/*    <dd className={styles.detailValue}>{attester}</dd>*/}
+          {/*  </div>*/}
+          {/*  <div className={styles.hash}>*/}
+          {/*    <dt className={styles.detailName}>*/}
+          {/*      {t('component_CredentialCard_hash')}*/}
+          {/*    </dt>*/}
+          {/*    <dd className={styles.detailValue}>{credential.rootHash}</dd>*/}
+          {/*  </div>*/}
+          {/*</dl>*/}
         </section>
       )}
     </li>

@@ -45,7 +45,7 @@ function MatchingIdentityCredentials({
 
   return (
     <section className={styles.identityCredentials}>
-      <IdentityLine identity={identity} className={styles.identityLine} />
+      {/*<IdentityLine identity={identity} className={styles.identityLine} />*/}
       <ul className={styles.list}>
         {credentials.map((sporranCredential, index) => (
           <ShareCredentialCard
@@ -132,20 +132,20 @@ export function ShareCredentialSelect({
             {t('view_ShareCredentialSelect_no_credentials')}
           </p>
 
-          <a
-            href="https://socialkyc.io/"
-            target="_blank"
-            rel="noreferrer"
-            className={styles.explainerLink}
-          >
-            {t('view_ShareCredentialSelect_explainer')}
-          </a>
+          {/*<a*/}
+          {/*  href="https://socialkyc.io/"*/}
+          {/*  target="_blank"*/}
+          {/*  rel="noreferrer"*/}
+          {/*  className={styles.explainerLink}*/}
+          {/*>*/}
+          {/*  {t('view_ShareCredentialSelect_explainer')}*/}
+          {/*</a>*/}
         </section>
       )}
 
       {!noUsableCredentials && (
         <section className={styles.allCredentials} ref={ref}>
-          {sortedIdentities.map((identity, index) => (
+          {[sortedIdentities[0]].map((identity, index) => (
             <MatchingIdentityCredentials
               key={identity.address}
               identity={identity}
