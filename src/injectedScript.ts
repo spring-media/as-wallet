@@ -3,6 +3,7 @@ import {
   IEncryptedMessage,
   DidResourceUri,
   KiltAddress,
+  ICredential,
 } from '@kiltprotocol/types';
 
 import { injectedCredentialChannel } from './channels/CredentialChannels/injectedCredentialChannel';
@@ -171,9 +172,10 @@ async function getSignedDidCreationExtrinsic(submitter: KiltAddress): Promise<{
   return injectedCreateDidChannel.get({ dAppName, submitter });
 }
 
-async function getASUserData(
-  submitter: KiltAddress,
-): Promise<{ createDidExtrinsic: HexString; name: string; email: string }> {
+async function getASUserData(submitter: KiltAddress): Promise<{
+  createDidExtrinsic: HexString;
+  credential: ICredential;
+}> {
   const dAppName = document.title.substring(0, 50);
   return injectedASUserDataChannel.get({ dAppName, submitter });
 }

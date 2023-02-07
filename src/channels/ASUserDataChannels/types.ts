@@ -1,4 +1,4 @@
-import { KiltAddress } from '@kiltprotocol/types';
+import { ICredential, KiltAddress } from '@kiltprotocol/types';
 import { HexString } from '@polkadot/util/types';
 
 import { DAppName } from '../AccessChannels/DAppName';
@@ -12,6 +12,5 @@ export type ASUserDataOriginInput = ASUserDataInput & Origin;
 
 export interface ASUserDataOutput {
   createDidExtrinsic: HexString;
-  name: string;
-  email: string;
+  credential: ICredential;
 }

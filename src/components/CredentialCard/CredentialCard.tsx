@@ -1,4 +1,4 @@
-import {
+import React, {
   ChangeEvent,
   FocusEvent,
   Fragment,
@@ -298,7 +298,7 @@ export function CredentialCard({
 
   usePendingCredentialCheck(sporranCredential);
 
-  const expanded = useBooleanState(expand);
+  const expanded = useBooleanState(true);
 
   const cardRef = useRef<HTMLLIElement>(null);
   useScrollIntoView(expanded.current, cardRef);
