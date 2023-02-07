@@ -1,5 +1,5 @@
 import { MemoryRouter, Route, Switch } from 'react-router-dom';
-import { Fragment } from 'react';
+import React from 'react';
 
 import './App.css';
 import * as styles from './App.module.css';
@@ -10,8 +10,6 @@ import { ConfigurationProvider } from '../../configuration/ConfigurationContext'
 import { IdentitiesProvider } from '../../utilities/identities/IdentitiesContext';
 import { CredentialsProvider } from '../../utilities/credentials/CredentialsContext';
 import { GenericError } from '../GenericError/GenericError';
-import { AddIdentity } from '../../components/AddIdentity/AddIdentity';
-import { Settings } from '../../components/Settings/Settings';
 import { ExternalAccess } from '../ExternalAccess/ExternalAccess';
 import { Welcome } from '../Welcome/Welcome';
 import { IdentitiesRouter } from '../IdentitiesRouter/IdentitiesRouter';
@@ -50,7 +48,7 @@ export function App(): JSX.Element {
       >
         <RouteExcept path={popupPaths}>
           <nav className={styles.menus}>
-            <img src={"as_logo.png"} alt="Axel Springer"/>
+            <img src={'as_logo.png'} alt="Axel Springer" />
             {/*<AddIdentity />*/}
             {/*<Settings />*/}
           </nav>

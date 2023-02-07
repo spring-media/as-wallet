@@ -1,4 +1,4 @@
-import { FormEvent, useCallback } from 'react';
+import React, { FormEvent, useCallback } from 'react';
 import { browser } from 'webextension-polyfill-ts';
 import * as Did from '@kiltprotocol/did';
 
@@ -61,6 +61,7 @@ export function ASUserData({ identity }: Props): JSX.Element {
   const handleSubmit = useCallback(
     async (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault();
+      console.log(event.currentTarget);
 
       const formData = new FormData(event.currentTarget);
       const surname = (formData.get('surname') as string).trim();
@@ -143,6 +144,7 @@ export function ASUserData({ identity }: Props): JSX.Element {
       <input
         className={styles.input}
         type="email"
+        name="email"
         placeholder={t('view_ASUserData_email')}
         required
       />
