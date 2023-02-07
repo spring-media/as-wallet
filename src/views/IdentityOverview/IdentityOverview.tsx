@@ -42,10 +42,12 @@ export function IdentityOverview({ identity }: Props): JSX.Element | null {
       <header>
         <h1 className={styles.heading}>{t('view_IdentityOverview_title')}</h1>
       </header>
-      {credentials.length && (
+      {credentials.length > 0 ? (
         <div className={styles.credentials}>
           <CredentialCard sporranCredential={credentials[0]}></CredentialCard>
         </div>
+      ) : (
+        <></>
       )}
       {/* <CredentialCard sporranCredential={credentials[0]}></CredentialCard> */}
     </main>
